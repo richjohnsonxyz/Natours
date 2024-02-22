@@ -69,6 +69,15 @@ body {
     animation-duration: 1s;
     animation-timing-function: ease-out; }
 
+.heading-secondary {
+  font-size: 3.5rem;
+  text-transform: uppercase;
+  font-weight: 700;
+  transition: all .2s;
+  letter-spacing: .2rem; }
+  .heading-secondary:hover {
+    transform: skewY(5deg); }
+
 .btn:link, .btn:visited {
   display: inline-block;
   text-transform: uppercase;
@@ -135,8 +144,10 @@ body {
     width: calc(2 * ((100% - 6rem * 2) / 3) + 6rem); }
   .row .col-1-of-4 {
     width: calc((100% - 6rem * 3) / 4); }
+  .row .col-2-of-4 {
+    width: calc(2 * ((100% - 6rem * 3) / 4) + 6rem); }
   .row .col-3-of-4 {
-    width: calc((100% - 6rem * 3) / 4); }
+    width: calc(3 * ((100% - 6rem * 3) / 4) + 2 * 6rem); }
 
 .header {
   position: relative;
@@ -157,3 +168,12 @@ body {
     left: 50%;
     transform: translate(-50%, -50%);
     text-align: center; }
+
+.section-about {
+  background-color: #f7f7f7;
+  padding: 25rem;
+  margin-top: -20vh;
+  background-image: linear-gradient(to right, #7ed56f, #28b485);
+  display: inline-block;
+  -webkit-background-clip: text;
+  color: transparent; }

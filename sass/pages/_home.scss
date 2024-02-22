@@ -1,0 +1,9 @@
+.section-about {
+  background-color: $color-grey-light-1;
+  padding: 25rem;
+  margin-top: -20vh;
+  background-image: linear-gradient(to right, $color-primary-light, $color-primary-dark);
+  display: inline-block;
+  -webkit-background-clip: text;
+  color: transparent;
+}

@@ -34,4 +34,16 @@ body {
       animation-duration: 1s;
       animation-timing-function: ease-out;
     }
+}
+
+.heading-secondary {
+  font-size: 3.5rem;
+  text-transform: uppercase;
+  font-weight: 700;
+  transition: all .2s;
+  letter-spacing: .2rem;
+
+  &:hover {
+    transform: skewY(5deg);
   }
+}
